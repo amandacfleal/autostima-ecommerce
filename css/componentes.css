@@ -1,0 +1,117 @@
+        .btn-primary {
+            background-color: #df4585;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #db2777;
+        }
+
+        .btn-secondary {
+            border: 1px solid #ec4899;
+            color: #ec4899;
+            padding: 0.5rem 1.5rem;
+            border-radius: 9999px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            background-color: #ec4899;
+            color: white;
+        }
+
+
+        .category-card {
+            background-color: #c24592;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .promo-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #ff4757;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+.product-card .relative {
+    position: relative; /* Container deve ter position relative */
+    overflow: hidden; /* Mantém tudo contido */
+}
+.product-card img {
+    display: block; /* Remove espaçamento abaixo da imagem */
+    transition: transform 0.3s ease; /* Efeito hover opcional */
+}
+.product-card:hover img {
+    transform: scale(1.03); /* Efeito hover opcional */
+}
+
+.newsletter {
+    background: linear-gradient(to right, #eca4c2, #aa216c42);
+}
+
+
+
+        /* Estilos adicionais para o rodapé */
+        .payment-methods-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .payment-title {
+            font-size: 1.5em;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 5px;
+        }
+
+        .payment-subtitle {
+            font-size: 1em;
+            color: #a0a0a0;
+            margin-bottom: 20px;
+        }
+
+        .payment-icons-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .card-icons,
+        .other-payments {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .brand-logo {
+            height: 30px;
+            width: auto;
+            filter: grayscale(100%);
+            transition: filter 0.3s ease;
+        }
+
+        .brand-logo:hover {
+            filter: grayscale(0%);
+        }
