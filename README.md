@@ -3,6 +3,9 @@
 Um site de e-commerce simples e elegante focado em moda feminina, desenvolvido com HTML, CSS (Tailwind CSS) e JavaScript puro.
 
 **[Acesse o projeto ao vivo aqui!](https://amandacfleal.github.io/autostima-ecommerce/)**
+![Pré-visualização do Projeto](assets/images/preview1.png)
+![Pré-visualização do Projeto](assets/images/preview2.png)
+![Pré-visualização do Projeto](assets/images/preview3.png)
 
 ---
 
